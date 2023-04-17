@@ -1,0 +1,24 @@
+# source - https://github.com/cypress-io/cypress-example-recipes/blob/master/.gitignore
+node_modules
+dist
+.tmp
+.sass-cache
+.DS_Store
+npm-debug.log
+tmp
+.projects
+*.orig
+
+screenshots
+videos
+out.js
+snapshots.js
+.nyc_output
+coverage
+dist
+
+
+# IDE specific
+.idea
+
+Cypress/Support/Results/CypressRun.log
