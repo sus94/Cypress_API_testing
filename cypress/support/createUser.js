@@ -8,4 +8,13 @@ const user = {
   gender: "female",
 };
 
+export function createUser() {
+  return cy.request({
+    method: "POST",
+    url: "/users",
+    headers: { Authorization: Cypress.env("accessToken") },
+    body: user,
+  });
+}
+
 export { user };

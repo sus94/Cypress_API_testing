@@ -5,7 +5,7 @@ const chance = new Chance();
 let createdUser;
 let userBody;
 
-describe("Gorestco API testing", () => {
+describe("Users API tests", () => {
   //create a test user and implement the tests on that user
   // so that we are sure we don't destruct the DB
   before(() => {
